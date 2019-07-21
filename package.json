@@ -1,0 +1,43 @@
+{
+  "name": "vdom",
+  "version": "0.0.9",
+  "description": "Virtual Dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config webpack.config.js",
+    "dev": "webpack --mode development --config webpack.config.js",
+    "serve": "npx webpack-dev-server --mode development --content-base ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IssacZhuang/textEditor.git"
+  },
+  "keywords": [
+    "vDom",
+    "typescript"
+  ],
+  "author": "IssacZhuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IssacZhuang/textEditor/issues"
+  },
+  "homepage": "https://github.com/IssacZhuang/textEditor#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
